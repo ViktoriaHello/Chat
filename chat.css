@@ -6,6 +6,18 @@ body {
     
 }
 
+h3 {
+    margin-top: 0px;
+    padding-top: 15px;
+}
+
+span {
+   margin-bottom: 0px;
+}
+
+.space {
+    margin-left: 20px;
+}
 
 .box {
     width: 800px;
@@ -21,30 +33,29 @@ body {
     height : 70px;
     margin: auto; 
     background-image: linear-gradient(to top, #ffe6e6,  #ffffff);
-        
+      
 }
 
 .filling1 {
-    display: inline-block;
-    vertical-align: text-top;
     line-height: 0.8;
     padding-left: 10px;    
 }
 
 .cross {
-    position: absolute;
-    top: 20px;
-    right: 300px;
+   position: relative;
+}
+
+i {
+  position: absolute;   
+  top: -50px;
+  right: 20px;
 }
 
 .line1 {
-    
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center; 
-    
-    
   }
 
 .logo {
@@ -53,9 +64,7 @@ body {
    flex-direction: row;
    justify-content: space-around;
    align-items: center;
-  
 }
-
 
 .logo1 {
     width: 50px;
@@ -67,26 +76,18 @@ body {
 }
 
 .message {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;  
-    align-items: center;
     flex-grow: 1;
     border-left: 1px solid #ffe6e6;
     padding: 20px 20px;  
-    
-
 }
 
 .bla-bla {
-    width: 570px;
     padding: 5px;
     text-align: justify; 
     line-height: 2;
     background-color: #dcecfd;
     font-size: 0.9em;
     border-radius: 10px;
-   
 }
 
 .logo2 {
